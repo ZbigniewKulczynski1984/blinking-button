@@ -14,6 +14,15 @@ const btnAnimation = e => {
     const insideBtnLeft = left - btnLeftPosition
 
     const circle = document.createElement('span')
+    circle.classList.add('circle')
+    circle.style.top = insideBtnTop + 'px'
+    circle.style.left = insideBtnLeft + 'px'
+
+    e.target.appendChild(circle)
+
+    setTimeout(() => {
+        circle.remove()
+    }, 300);
 }
 
 btn.addEventListener('click', btnAnimation);
