@@ -5,9 +5,15 @@ const btnAnimation = e => {
     const top = e.clientY
     const left = e.clientX
     //pozycja w którą klikamy
+
     const btnTopPosition = e.target.offsetTop
     const btnLeftPosition = e.target.offsetLeft
     //zmienne reprezentują pozycje przycisku
+
+    const insideBtnTop = top - btnTopPosition
+    const insideBtnLeft = left - btnLeftPosition
+
+    const circle = document.createElement('span')
 }
 
 btn.addEventListener('click', btnAnimation);
