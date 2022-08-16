@@ -1,4 +1,4 @@
-# pulsuj-cy_przycisk
+# pulsujący_przycisk
 pulsujący przycisk
 
 ## Build with
