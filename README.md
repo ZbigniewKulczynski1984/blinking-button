@@ -1,5 +1,5 @@
-# pulsujący_przycisk
-pulsujący przycisk
+# blinking button
+blinking button
 
 ## Build with
 -HTML
